@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Dictionary</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <input type="text" placeholder="Enter a word" class="form-control" id="value" onkeypress="enterKeyPressed(event)">
+
+            </div>
+            <div class="col-2">
+                <button id="search-btn" class="btn btn-success btn " href="#" role="button" 
+                    style="text-align:justify; text-justify: distribute;" onclick="start()">Look It ...</button>
+
+            </div>
+
+        </div>
+    </div>
+
+        <div id="mainPart">
+
+        </div>
+    
+    <!-- <i class="fa fa-volume-up fa-2x" aria-hidden="true" onclick="hello()"><audio src="https://lex-audio.useremarkable.com/mp3/hello_us_1_rr.mp3" id="1">hello</audio></i> -->
+
+    <!-- <div class="meanings">
+         <p>${partOfSpeech}</p>
+        <div class="def">
+              <p>${definition}</p>
+              <p>"${example}"</p>
+        </div>
+    </div> -->
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
